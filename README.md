@@ -25,11 +25,11 @@
 ---
 
 ## Установка 
-git clone git@github.com:halo-ss/test_work.git
-cd test_work
-python -m venv venv
-source venv/bin/activate  # На Windows: venv\Scripts\activate
-pip install -r req.txt
+>git clone git@github.com:halo-ss/test_work.git
+>cd test_work
+>python -m venv venv
+>source venv/bin/activate  # На Windows: venv\Scripts\activate
+>pip install -r req.txt
 
 ## Запуск 
 - windows
