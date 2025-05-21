@@ -24,12 +24,25 @@
 
 ---
 
+## Установка 
+git clone git@github.com:halo-ss/test_work.git
+cd test_work
+python -m venv venv
+source venv/bin/activate  # На Windows: venv\Scripts\activate
+pip install -r req.txt
+
+## Запуск 
+- windows
+>python main.py
+- linux 
+>python3 main.py
+
 ## Используемый стек
 
 | Компонент        | Описание                                 |
 |------------------|-------------------------------------------|
 | Языковая модель  | Qwen 3 14B (через LM Studio)              |
-| Язык             | Python 3.11.9                                   |
+| Язык             | Python 3.11.9                             |
 | Работа с данными | Pandas                                    |
 | Среда выполнения | Локальная (интерпретатор Python)          |
 | Ввод             | Естественный язык (RU/EN)                 |
